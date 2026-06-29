@@ -1,0 +1,122 @@
+@import './fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    'Nizar Cocon Kurdish',
+    'Greta Arabic',
+    sans-serif;
+  min-height: 100vh;
+  direction: rtl;
+  /* background: #353635; */
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+
+  background-image: url('./assets/Vector Smart Object.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.logo {
+  width: 260px;
+  height: auto;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+
+  width: 100%;
+  padding: 16px 20px;
+
+  background: #79c143;
+  color: white;
+  text-decoration: none;
+
+  border-radius: 14px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  background: #5e9933;
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.btn-text {
+  text-align: center;
+}
+
+.location-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #353635;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.location-link:hover {
+  color: #79c143;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 220px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 14px 16px;
+  }
+
+  .location-link {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,30 @@
+/* Greta Arabic Font Family */
+
+@font-face {
+  font-family: 'Greta Arabic';
+  src: url('./assets/GretaArabic_complete_OTF/GretaArabic_complete_OTF/Greta_Arabic_Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greta Arabic';
+  src: url('./assets/GretaArabic_complete_OTF/GretaArabic_complete_OTF/Greta_Arabic_Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greta Arabic';
+  src: url('./assets/GretaArabic_complete_OTF/GretaArabic_complete_OTF/Greta_Arabic_Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Greta Arabic';
+  src: url('./assets/GretaArabic_complete_OTF/GretaArabic_complete_OTF/Greta_Arabic_Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
